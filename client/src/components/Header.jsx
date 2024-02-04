@@ -26,7 +26,7 @@ export default function Header() {
   },[location.search])
 
   return (
-    <div className="fixed">
+    <div className="fixedH">
           <header className="bg-gray-400 shadow-md ">
       <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
         <Link to="/">
